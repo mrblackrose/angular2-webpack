@@ -11,3 +11,13 @@ import '@angularclass/hmr';
 
 // Other vendors for example jQuery, Lodash or Bootstrap
 // You can import js, ts, css, sass, ...
+import 'jquery';
+import 'jquery-ui-bundle';
+import 'jquery-ui-bundle/jquery-ui.min.css'
+
+
+// Bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
+
+// Font Awesome
+import 'font-awesome/css/font-awesome.min.css';

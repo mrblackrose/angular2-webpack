@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ApiService } from './shared';
 import { routing } from './app.routing';
+import { DatePicker } from './common/date-picker.directive';
 
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
@@ -21,7 +22,8 @@ import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    DatePicker
   ],
   providers: [
     ApiService
